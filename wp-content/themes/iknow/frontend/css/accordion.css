@@ -1,0 +1,43 @@
+.accordion_cp {
+	margin: 0;
+	text-decoration:none;
+	text-transform:uppercase;		
+}
+.accordion-open {
+	
+}
+.accordion-open span i:before{
+	content: "\f068";
+}
+.accordion-open span {
+}
+.accordion-close span i:before{
+	content: "\f067";
+}
+.accordion-close span {
+
+}
+div.contain_cp_accor {
+	padding:0;
+	margin:0;
+}
+div.content_cp_accor {
+	background:#f0f0f0;
+	margin: 0;
+	padding:10px;
+	font-size:.9em;
+	line-height:1.5em;
+	font-family:"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+div.content_cp_accor ul, div.content_cp_accor p {
+	padding:0;
+	margin:0;
+	padding:3px;
+}
+div.content_cp_accor ul li {
+	list-style-position:inside;
+	line-height:25px;
+}
+div.content_cp_accor ul li a {
+	color:#555555;
+}
